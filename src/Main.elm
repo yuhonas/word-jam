@@ -24,7 +24,7 @@ view model =
     [ button [ class """
     bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded
     """, onClick
-    Decrement ] [ text "Subtract" ]
+    Decrement ] [ text "Decrement" ]
     , div [] [ text (String.fromInt model) ]
-    , button [ onClick Increment ] [ text "Add" ]
+    , button [ class "bg-blue-500", onClick Increment ] [ text "Increment" ]
     ]

@@ -2,8 +2,8 @@
 module.exports = {
   purge: {
     content: [
-      './dist/**/*.html',
-      './dist/**/*.js'
+      './src/**/*.elm',
+      './src/**/*.html'
     ],
 
     // These options are passed through directly to PurgeCSS
